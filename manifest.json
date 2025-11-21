@@ -1,0 +1,19 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2860",
+        "primary": true
+      }
+    ],
+    "recommendedRam": 8192
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Joe Parasites",
+  "version": "0.0.1",
+  "author": "Dylanlenub",
+  "files": [],
+  "overrides": "overrides"
+}
