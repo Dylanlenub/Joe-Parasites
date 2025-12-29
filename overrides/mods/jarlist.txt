@@ -1,0 +1,13 @@
+!configanytime-3.0
+!mixinbooter-10.7
+Atlas-Lib-1.12.2-1.1.9
+Essential_1-3-10-4_forge_1-12-2
+ImmersiveCombat-12-13-25
+SRPMixins-2.9.3
+SRParasites-1.12.2v1.9.21
+ShieldBreak-1.2.1
+SpartanShields-1.12.2-1.5.5
+SpartanWeaponry-1.12.2-1.6.1
+The-Hordes-1.12.2-1.5.3c
+UniversalTweaks-1.12.2-1.17.0
+`FermiumBooter-1.4.1
