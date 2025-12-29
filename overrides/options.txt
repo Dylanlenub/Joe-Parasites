@@ -104,9 +104,9 @@ key_keybind.name.EMOTE_SLOT_8:0
 key_Zoom:0
 key_key.fastEquip.desc:0
 key_key.spartanweaponry.access_quiver:0
-key_Options Gui:23
+key_Options Gui:0
 key_keybind.universaltweaks.clear_toasts:0
-key_key.carbon_config.key:82
+key_key.carbon_config.key:0
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
