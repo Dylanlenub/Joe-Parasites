@@ -5,11 +5,11 @@ fov:0.0
 gamma:0.0
 saturation:0.0
 renderDistance:12
-guiScale:0
+guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:120
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -24,8 +24,8 @@ chatColors:true
 chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
-snooperEnabled:true
-fullscreen:false
+snooperEnabled:false
+fullscreen:true
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -36,9 +36,9 @@ overrideWidth:0
 overrideHeight:0
 heldItemTooltips:true
 chatHeightFocused:1.0
-chatHeightUnfocused:0.44366196
+chatHeightUnfocused:0.5
 chatScale:1.0
-chatWidth:1.0
+chatWidth:0.625
 mipmapLevels:4
 forceUnicodeFont:false
 reducedDebugInfo:false
@@ -49,7 +49,7 @@ attackIndicator:1
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:movement
 key_key.attack:-100
@@ -63,7 +63,7 @@ key_key.sneak:42
 key_key.sprint:29
 key_key.drop:16
 key_key.inventory:18
-key_key.chat:20
+key_key.chat:28
 key_key.playerlist:15
 key_key.pickItem:-98
 key_key.command:53
@@ -73,8 +73,8 @@ key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
 key_key.swapHands:33
-key_key.saveToolbarActivator:46
-key_key.loadToolbarActivator:45
+key_key.saveToolbarActivator:0
+key_key.loadToolbarActivator:0
 key_key.advancements:38
 key_key.hotbar.1:2
 key_key.hotbar.2:3
@@ -85,6 +85,9 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
+key_key.fastEquip.desc:0
+key_key.spartanweaponry.access_quiver:0
+key_keybind.universaltweaks.clear_toasts:0
 key_Open Friends Gui:0
 key_Open Cosmetic Studio:0
 key_keybind.name.SCREENSHOT_MANAGER:0
@@ -102,9 +105,6 @@ key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
 key_Zoom:0
-key_key.fastEquip.desc:0
-key_key.spartanweaponry.access_quiver:18:SHIFT
-key_keybind.universaltweaks.clear_toasts:11:CONTROL
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0
