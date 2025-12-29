@@ -1,4 +1,8 @@
 # Ignored
 minecraftinstance.json
+
 overrides/mods/*
 !overrides/mods/jarlist.txt
+
+overrides/essential/*
+!overrides/essential/config.toml
