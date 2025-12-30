@@ -1,6 +1,8 @@
 # Ignored
 minecraftinstance.json
 
+overrides/config/jei/worldSettings.cfg
+
 overrides/mods/*
 !overrides/mods/jarlist.txt
 

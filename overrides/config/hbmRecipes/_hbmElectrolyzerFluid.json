@@ -1,26 +1,14 @@
 {
   "recipes": [
     {
-      "input": ["SLOP",1000],
-      "output1": ["MERCURY",250],
-      "output2": ["NONE",0],
+      "input": ["REDMUD",450],
+      "output1": ["MERCURY",150],
+      "output2": ["LYE",50],
       "byproducts": [
-        ["hbm:niter",2],
-        ["hbm:powder_limestone",2],
-        ["hbm:sulfur"]
+        ["hbm:powder_titanium",3],
+        ["hbm:powder_iron",3],
+        ["hbm:powder_aluminium",2]
       ],
-      "duration": 20
-    },
-    {
-      "input": ["WATER",2000],
-      "output1": ["HYDROGEN",200],
-      "output2": ["OXYGEN",200],
-      "duration": 10
-    },
-    {
-      "input": ["CALCIUM_CHLORIDE",250],
-      "output1": ["CHLORINE",125],
-      "output2": ["CALCIUM_SOLUTION",125],
       "duration": 20
     },
     {
@@ -34,19 +22,29 @@
       "duration": 40
     },
     {
-      "input": ["REDMUD",450],
-      "output1": ["MERCURY",150],
-      "output2": ["LYE",50],
+      "input": ["HEAVYWATER",2000],
+      "output1": ["DEUTERIUM",200],
+      "output2": ["OXYGEN",200],
+      "duration": 10
+    },
+    {
+      "input": ["POTASSIUM_CHLORIDE",250],
+      "output1": ["CHLORINE",125],
+      "output2": ["NONE",0],
       "byproducts": [
-        ["hbm:powder_titanium",3],
-        ["hbm:powder_iron",3],
-        ["hbm:powder_aluminium",2]
+        ["hbm:dust"]
       ],
       "duration": 20
     },
     {
-      "input": ["HEAVYWATER",2000],
-      "output1": ["DEUTERIUM",200],
+      "input": ["CALCIUM_CHLORIDE",250],
+      "output1": ["CHLORINE",125],
+      "output2": ["CALCIUM_SOLUTION",125],
+      "duration": 20
+    },
+    {
+      "input": ["WATER",2000],
+      "output1": ["HYDROGEN",200],
       "output2": ["OXYGEN",200],
       "duration": 10
     },
@@ -61,11 +59,13 @@
       "duration": 20
     },
     {
-      "input": ["POTASSIUM_CHLORIDE",250],
-      "output1": ["CHLORINE",125],
+      "input": ["SLOP",1000],
+      "output1": ["MERCURY",250],
       "output2": ["NONE",0],
       "byproducts": [
-        ["hbm:dust"]
+        ["hbm:niter",2],
+        ["hbm:powder_limestone",2],
+        ["hbm:sulfur"]
       ],
       "duration": 20
     }
