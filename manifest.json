@@ -12,9 +12,15 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Joe Parasites",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": "Dylanlenub",
   "files": [
+    {
+      "projectID": 255257,
+      "fileID": 5420240,
+      "required": true,
+      "isLocked": false
+    },
     {
       "projectID": 968474,
       "fileID": 7279112,
@@ -30,6 +36,12 @@
     {
       "projectID": 237167,
       "fileID": 2985811,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1083780,
+      "fileID": 7124788,
       "required": true,
       "isLocked": false
     },
@@ -90,6 +102,12 @@
     {
       "projectID": 267602,
       "fileID": 2915363,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 239197,
+      "fileID": 7406648,
       "required": true,
       "isLocked": false
     },
@@ -190,14 +208,20 @@
       "isLocked": false
     },
     {
+      "projectID": 227083,
+      "fileID": 2518667,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 1030082,
       "fileID": 6026100,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 227083,
-      "fileID": 2518667,
+      "projectID": 964194,
+      "fileID": 7144256,
       "required": true,
       "isLocked": false
     },

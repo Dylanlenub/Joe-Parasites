@@ -4,9 +4,12 @@ Atlas-Lib-1.12.2-1.1.9
 Baubles-1.12-1.5.2
 CarbonConfig-1.12.2-1.2.4
 Chunk-Pregenerator-1.12.2-4.4.9
+CraftTweaker2-1.12-4.1.20.711
 CTM-MC1.12.2-1.0.2.31
 DelightfulCuisineForWoodheads_1.12.2-1.1.0
 Essential_1-3-10-4_forge_1-12-2
+ExtraLib-1.8.6-1.12.2-Forge
+ExtraQuests-1.5.8-1.12.2-Forge
 FTBBackups-1.1.0.1
 FTBLib-5.4.7.2
 FTBQuests-1202.9.0.15
@@ -14,6 +17,7 @@ HadEnoughItems_1.12.2-4.29.14
 Hwyla-1.8.26-B41_1.12.2
 ImmersiveCombat-12-13-25
 ItemFilters-1.0.4.2
+LootTweaker-0.4.1+MC1.12.2
 lycanitesmobs-1.12.2-2.0.8.10
 MmmMmmMmmMmm-1.12-2.0.5
 NTM-CE-1.12.2-1.2.5.4
