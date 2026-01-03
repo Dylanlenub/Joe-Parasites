@@ -105,7 +105,7 @@ key_Zoom:0
 key_Change Caster Focus:34:SHIFT
 key_Misc Caster Toggle:35
 key_keybind.baublesinventory:48
-key_key.ftbquests.quests:0
+key_key.ftbquests.quests:41
 key_key.fastEquip.desc:0
 key_key.mount.dismount:46
 key_key.mount.descend:42
