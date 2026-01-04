@@ -5,6 +5,9 @@ overrides/config/jei/worldSettings.cfg
 
 overrides/mods/*
 !overrides/mods/jarlist.txt
+!overrides/mods/vintagium-mc1.12.2-0.1.jar
+!overrides/mods/oculus-mc1.12.2-1.4.7.jar
+!overrides/mods/chunkbert-0.1.1.jar
 
 overrides/essential/*
 !overrides/essential/config.toml

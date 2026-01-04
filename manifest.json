@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Joe Parasites",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "author": "Dylanlenub",
   "files": [
     {
@@ -31,6 +31,18 @@
       "projectID": 375616,
       "fileID": 6393371,
       "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 288885,
+      "fileID": 4030366,
+      "required": false,
+      "isLocked": false
+    },
+    {
+      "projectID": 871198,
+      "fileID": 6609247,
+      "required": false,
       "isLocked": false
     },
     {
@@ -65,7 +77,7 @@
     },
     {
       "projectID": 1312314,
-      "fileID": 7374941,
+      "fileID": 7415696,
       "required": true,
       "isLocked": false
     },
@@ -85,6 +97,12 @@
       "projectID": 522574,
       "fileID": 7256546,
       "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 283644,
+      "fileID": 4629597,
+      "required": false,
       "isLocked": false
     },
     {
@@ -130,6 +148,18 @@
       "isLocked": false
     },
     {
+      "projectID": 971247,
+      "fileID": 6389447,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 299540,
+      "fileID": 2706111,
+      "required": false,
+      "isLocked": false
+    },
+    {
       "projectID": 253449,
       "fileID": 2568751,
       "required": true,
@@ -166,6 +196,12 @@
       "isLocked": false
     },
     {
+      "projectID": 873867,
+      "fileID": 7394157,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 278141,
       "fileID": 6839689,
       "required": true,
@@ -174,7 +210,7 @@
     {
       "projectID": 951159,
       "fileID": 6858200,
-      "required": true,
+      "required": false,
       "isLocked": false
     },
     {
@@ -192,6 +228,12 @@
     {
       "projectID": 805622,
       "fileID": 6997581,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1308068,
+      "fileID": 6776118,
       "required": true,
       "isLocked": false
     },
@@ -216,6 +258,12 @@
     {
       "projectID": 1030082,
       "fileID": 6026100,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 910715,
+      "fileID": 6687458,
       "required": true,
       "isLocked": false
     },
