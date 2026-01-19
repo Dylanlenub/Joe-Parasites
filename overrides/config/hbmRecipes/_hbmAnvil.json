@@ -773,21 +773,6 @@
     },
     {
       "inputs": [
-        ["item","hbm:rtg_unit",5],
-        ["dict","plateTungCar",8],
-        ["dict","ingotCopper",16],
-        ["dict","ingotTcAlloy",6],
-        ["dict","plateSteel",8]
-      ],
-      "outputs": [
-        ["hbm:heater_rt",1.0]
-      ],
-      "tierLower": 4,
-      "tierUpper": -1,
-      "overlay": "CONSTRUCTION"
-    },
-    {
-      "inputs": [
         ["item","minecraft:stonebrick",16],
         ["dict","ingotIron",4],
         ["dict","plateSteel",16],
@@ -2375,8 +2360,6 @@
         ["hbm:scrap",1.0],
         ["hbm:coil_tungsten",1.0],
         ["minecraft:bread",0.5],
-        ["hbm:battery_generic",0.25],
-        ["hbm:battery_advanced",0.1],
         ["hbm:fusion_core",0.01]
       ],
       "tierLower": 2,
@@ -2392,8 +2375,7 @@
         ["hbm:scrap",1.0],
         ["hbm:coil_tungsten",2,1.0],
         ["minecraft:bread",0.5],
-        ["hbm:battery_lithium",0.25],
-        ["hbm:battery_sc_uranium",0.1],
+        ["hbm:battery_sc",1,2,0.1],
         ["hbm:fusion_core",0.05]
       ],
       "tierLower": 2,

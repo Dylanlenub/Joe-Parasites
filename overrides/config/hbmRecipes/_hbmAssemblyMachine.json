@@ -239,7 +239,7 @@
         ["dict","dustAstatine",3],
         ["dict","dustBismuth"],
         ["dict","gemVolcanic"],
-        ["item","hbm:ingot_osmiridium"]
+        ["dict","ingotOsmiridium"]
       ],
       "outputItem": [
         ["single",["hbm:plate_euphemium"]]
@@ -867,6 +867,21 @@
       "power": 100
     },
     {
+      "name": "ass.silohatchlarge",
+      "inputItem": [
+        ["dict","plateSextupleSteel",6],
+        ["item","hbm:plate_polymer",8],
+        ["item","hbm:motor",2],
+        ["dict","boltSteel",16],
+        ["dict","dyeGreen",8]
+      ],
+      "outputItem": [
+        ["single",["hbm:silo_hatch_large"]]
+      ],
+      "duration": 300,
+      "power": 100
+    },
+    {
       "name": "ass.capnuka",
       "inputItem": [
         ["item","hbm:cap_nuka",64],
@@ -949,6 +964,20 @@
         ["single",["hbm:machine_shredder"]]
       ],
       "duration": 100,
+      "power": 100
+    },
+    {
+      "name": "ass.assembler",
+      "inputItem": [
+        ["dict","ingotSteel",4],
+        ["dict","plateCopper",4],
+        ["item","hbm:motor",2],
+        ["item","hbm:circuit",1,7]
+      ],
+      "outputItem": [
+        ["single",["hbm:machine_assembly_machine"]]
+      ],
+      "duration": 200,
       "power": 100
     },
     {
@@ -1156,9 +1185,8 @@
       "inputItem": [
         ["item","hbm:steel_scaffold",16],
         ["dict","shellSteel",6],
-        ["dict","ingotAnyPlastic",4],
-        ["dict","ingotNiobium",2],
-        ["item","hbm:catalyst_clay",12]
+        ["dict","ingotWorkersAlloy",12],
+        ["dict","ingotNiobium",4]
       ],
       "outputItem": [
         ["single",["hbm:machine_catalytic_cracker"]]
@@ -1343,7 +1371,7 @@
     {
       "name": "ass.fel",
       "inputItem": [
-        ["item","hbm:machine_lithium_battery"],
+        ["item","hbm:battery_pack",1,2],
         ["dict","wireDenseAdvancedAlloy",64],
         ["dict","plateTripleSteel",12],
         ["dict","ingotAnyPlastic",16],
@@ -1550,7 +1578,7 @@
         ["dict","plateAdvancedAlloy",12],
         ["dict","wireFineGold",32],
         ["item","hbm:entanglement_kit"],
-        ["item","hbm:machine_battery"]
+        ["item","hbm:battery_pack",1,2]
       ],
       "outputItem": [
         ["single",["hbm:machine_teleporter"]]
@@ -1641,6 +1669,23 @@
       "power": 100
     },
     {
+      "name": "ass.assemfac",
+      "inputItem": [
+        ["dict","ingotDuraSteel",16],
+        ["dict","ingotAnyResistantAlloy",8],
+        ["dict","ingotRubber",16],
+        ["dict","ingotBoron",8],
+        ["dict","shellSteel",4],
+        ["item","hbm:motor",12],
+        ["item","hbm:circuit",16,8]
+      ],
+      "outputItem": [
+        ["single",["hbm:machine_assembly_factory"]]
+      ],
+      "duration": 400,
+      "power": 100
+    },
+    {
       "name": "ass.chemfac",
       "inputItem": [
         ["dict","ingotDuraSteel",16],
@@ -1654,25 +1699,6 @@
       ],
       "outputItem": [
         ["single",["hbm:machine_chemical_factory"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
-      "name": "ass.assemfac",
-      "inputItem": [
-        ["dict","plateSextupleSteel",2],
-        ["dict","ingotAnyResistantAlloy",8],
-        ["dict","ingotBoron",4],
-        ["dict","ingotRubber",16],
-        ["dict","paneGlass",64],
-        ["dict","ntmpipeSteel",8],
-        ["dict","boltTungsten",16],
-        ["item","hbm:motor",18],
-        ["item","hbm:circuit",16,8]
-      ],
-      "outputItem": [
-        ["single",["hbm:machine_assembly_factory"]]
       ],
       "duration": 400,
       "power": 100
@@ -1780,23 +1806,6 @@
       "power": 100
     },
     {
-      "name": "ass.gasturbine",
-      "inputItem": [
-        ["dict","shellSteel",10],
-        ["dict","wireDenseGold",12],
-        ["dict","ntmpipeDuraSteel",4],
-        ["dict","ntmpipeSteel",4],
-        ["item","hbm:turbine_tungsten"],
-        ["item","hbm:ingot_rubber",12],
-        ["item","hbm:circuit",3,8]
-      ],
-      "outputItem": [
-        ["single",["hbm:machine_turbine_gas"]]
-      ],
-      "duration": 400,
-      "power": 100
-    },
-    {
       "name": "ass.hephaestus",
       "inputItem": [
         ["dict","ntmpipeSteel",12],
@@ -1885,76 +1894,92 @@
       "power": 100
     },
     {
-      "name": "ass.battery",
+      "name": "ass.capacitorgold",
       "inputItem": [
-        ["dict","plateSextupleSteel"],
-        ["dict","dustSulfur",12],
-        ["dict","dustLead",12]
+        ["dict","plateSteel",8],
+        ["dict","wireDenseGold",16]
       ],
       "outputItem": [
-        ["single",["hbm:machine_battery"]]
+        ["single",["hbm:battery_pack",1,7]]
       ],
       "duration": 100,
       "power": 100
     },
     {
-      "name": "ass.batterylithium",
+      "name": "ass.capacitorniobium",
       "inputItem": [
-        ["dict","ingotAnyPlastic",8],
-        ["dict","dustCobalt",12],
-        ["dict","dustLithium",12]
+        ["dict","ingotAnyPlastic",12],
+        ["dict","wireDenseNiobium",24]
       ],
       "outputItem": [
-        ["single",["hbm:machine_lithium_battery"]]
+        ["single",["hbm:battery_pack",1,8]]
       ],
       "duration": 100,
-      "power": 100
+      "power": 1000
     },
     {
-      "name": "ass.batteryschrabidium",
+      "name": "ass.capacitortantalum",
       "inputItem": [
-        ["dict","ingotWorkersAlloy",16],
-        ["dict","dustNeptunium237",12],
-        ["dict","dustSchrabidium",12]
+        ["dict","ingotAnyHardPlastic",16],
+        ["dict","ingotTantalum",24]
       ],
       "outputItem": [
-        ["single",["hbm:machine_schrabidium_battery"]]
+        ["single",["hbm:battery_pack",1,9]]
       ],
-      "duration": 200,
-      "power": 100
+      "duration": 100,
+      "power": 10000
     },
     {
-      "name": "ass.batterydnt",
+      "name": "ass.capacitorbismuth",
       "inputItem": [
-        ["dict","ingotDineutronium",24],
-        ["item","hbm:powder_spark_mix",12],
-        ["item","hbm:battery_spark_cell_1000"],
-        ["dict","ingotCMBSteel",32]
+        ["dict","ingotAnyHardPlastic",24],
+        ["dict","ingotBismuth",24],
+        ["item","hbm:circuit",1,16]
       ],
       "outputItem": [
-        ["single",["hbm:machine_dineutronium_battery"]]
+        ["single",["hbm:battery_pack",1,10]]
       ],
-      "duration": 400,
-      "power": 100
+      "duration": 100,
+      "power": 25000
+    },
+    {
+      "name": "ass.capacitorspark",
+      "inputItem": [
+        ["dict","plateTripleCMBSteel",12],
+        ["item","hbm:powder_spark_mix",32],
+        ["item","hbm:pellet_charged",32],
+        ["item","hbm:circuit",16,16]
+      ],
+      "inputFluid": [
+        ["PERFLUOROMETHYL_COLD",8000]
+      ],
+      "outputItem": [
+        ["single",["hbm:battery_pack",1,11]]
+      ],
+      "outputFluid": [
+        ["PERFLUOROMETHYL",8000]
+      ],
+      "duration": 100,
+      "power": 100000
     },
     {
       "name": "ass.fensusan",
       "inputItem": [
-        ["item","hbm:ingot_electronium",32],
-        ["item","hbm:machine_dineutronium_battery",16],
-        ["dict","plateSextupleAnyResistantAlloy",64],
-        ["dict","blockDuraSteel",16],
-        ["dict","blockStarmetal",64],
-        ["item","hbm:machine_transformer_dnt",8],
-        ["item","hbm:coil_magnetized_tungsten",24],
+        ["item","hbm:ingot_electronium",64],
+        ["item","hbm:battery_pack",1,5],
+        ["dict","plateSextupleOsmiridium",64],
+        ["dict","plateSextupleOsmiridium",64],
+        ["dict","plateTripleAnyBismoidBronze",64],
+        ["dict","plateTripleCMBSteel",32],
+        ["dict","wireDenseMagnetizedTungsten",32],
+        ["item","hbm:plate_dineutronium",64],
         ["item","hbm:powder_magic",64],
-        ["item","hbm:plate_dineutronium",24],
         ["item","hbm:ingot_u238m2"],
         ["item","hbm:ingot_cft",64],
         ["item","hbm:ingot_cft",64]
       ],
       "outputItem": [
-        ["single",["hbm:machine_fensu"]]
+        ["single",["hbm:machine_battery_redd"]]
       ],
       "duration": 1200,
       "power": 100
@@ -1963,8 +1988,7 @@
       "name": "ass.tank",
       "inputItem": [
         ["dict","plateSteel",8],
-        ["dict","shellSteel",4],
-        ["dict","unknownTar",4]
+        ["dict","shellSteel",4]
       ],
       "outputItem": [
         ["single",["hbm:machine_fluidtank"]]
@@ -1992,7 +2016,7 @@
         ["dict","plateSextupleAnyResistantAlloy",8],
         ["dict","plateTripleSaturnite",4],
         ["item","hbm:coil_advanced_alloy",12],
-        ["item","hbm:battery_sc_polonium"]
+        ["item","hbm:battery_sc",1,6]
       ],
       "outputItem": [
         ["single",["hbm:machine_orbus"]]
@@ -2003,9 +2027,9 @@
     {
       "name": "ass.cyclotron",
       "inputItem": [
-        ["item","hbm:machine_lithium_battery",3],
+        ["item","hbm:battery_pack",1,2],
         ["dict","wireDenseNeodymium",32],
-        ["dict","ingotSteel",16],
+        ["dict","plateTripleSteel",16],
         ["dict","plateSteel",32],
         ["dict","plateAluminum",32],
         ["dict","ingotAnyPlastic",24],
@@ -2163,7 +2187,7 @@
         ["dict","wireDenseAdvancedAlloy",32],
         ["item","hbm:motor_desh",2],
         ["item","hbm:circuit",4,11],
-        ["item","hbm:capacitor_tantalium"],
+        ["item","hbm:battery_pack",1,9],
         ["item","hbm:glass_quartz",16]
       ],
       "outputItem": [
@@ -2252,15 +2276,127 @@
       "power": 100
     },
     {
-      "name": "ass.fusionconductor",
+      "name": "ass.pwrfuel",
       "inputItem": [
-        ["item","hbm:coil_advanced_alloy",5]
+        ["dict","plateTripleLead",4],
+        ["dict","plateSextupleZirconium",2]
       ],
       "outputItem": [
-        ["single",["hbm:fusion_conductor"]]
+        ["single",["hbm:pwr_fuelrod",4]]
       ],
-      "duration": 100,
-      "power": 100
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrcontrol",
+      "inputItem": [
+        ["dict","plateTripleSteel",2],
+        ["dict","ingotBoron",4],
+        ["item","hbm:motor"]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_control",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrchannel",
+      "inputItem": [
+        ["dict","ntmpipeSteel",4],
+        ["dict","plateCopper",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_channel",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrheatex",
+      "inputItem": [
+        ["dict","plateTripleCopper",4],
+        ["item","hbm:motor"]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_heatex",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrheatsink",
+      "inputItem": [
+        ["dict","plateTripleSaturnite",4],
+        ["dict","plateTripleCopper",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_heatsink",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrreflector",
+      "inputItem": [
+        ["dict","plateTripleSteel",2],
+        ["dict","plateTungCar",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_reflector",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrcasing",
+      "inputItem": [
+        ["dict","plateLead",4],
+        ["dict","unknownConcrete",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_casing",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrcontroller",
+      "inputItem": [
+        ["dict","plateTripleLead",4],
+        ["dict","ingotRubber",4],
+        ["item","hbm:circuit",4,8]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_controller"]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrport",
+      "inputItem": [
+        ["dict","plateLead",4],
+        ["dict","unknownConcrete",4],
+        ["dict","ntmpipeSteel",4]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_port",4]]
+      ],
+      "duration": 200,
+      "power": 500
+    },
+    {
+      "name": "ass.pwrneutronsource",
+      "inputItem": [
+        ["dict","plateSextupleZirconium"],
+        ["item","hbm:billet_ra226be",3]
+      ],
+      "outputItem": [
+        ["single",["hbm:pwr_neutron_source"]]
+      ],
+      "duration": 200,
+      "power": 500
     },
     {
       "name": "ass.fusioncore",
@@ -2442,129 +2578,6 @@
       ],
       "duration": 100,
       "power": 100
-    },
-    {
-      "name": "ass.pwrfuel",
-      "inputItem": [
-        ["dict","plateTripleLead",4],
-        ["dict","plateSextupleZirconium",2]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_fuelrod",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrcontrol",
-      "inputItem": [
-        ["dict","plateTripleSteel",2],
-        ["dict","ingotBoron",4],
-        ["item","hbm:motor"]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_control",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrchannel",
-      "inputItem": [
-        ["dict","ntmpipeSteel",4],
-        ["dict","plateCopper",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_channel",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrheatex",
-      "inputItem": [
-        ["dict","plateTripleCopper",4],
-        ["item","hbm:motor"]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_heatex",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrheatsink",
-      "inputItem": [
-        ["dict","plateTripleSaturnite",4],
-        ["dict","plateTripleCopper",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_heatsink",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrreflector",
-      "inputItem": [
-        ["dict","plateTripleSteel",2],
-        ["dict","plateTungCar",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_reflector",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrcasing",
-      "inputItem": [
-        ["dict","plateLead",4],
-        ["dict","unknownConcrete",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_casing",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrcontroller",
-      "inputItem": [
-        ["dict","plateTripleLead",4],
-        ["dict","ingotRubber",4],
-        ["item","hbm:circuit",4,8]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_controller"]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrport",
-      "inputItem": [
-        ["dict","plateLead",4],
-        ["dict","unknownConcrete",4],
-        ["dict","ntmpipeSteel",4]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_port",4]]
-      ],
-      "duration": 200,
-      "power": 500
-    },
-    {
-      "name": "ass.pwrneutronsource",
-      "inputItem": [
-        ["dict","plateSextupleZirconium"],
-        ["item","hbm:billet_ra226be",3]
-      ],
-      "outputItem": [
-        ["single",["hbm:pwr_neutron_source"]]
-      ],
-      "duration": 200,
-      "power": 500
     },
     {
       "name": "ass.icfcell",
@@ -2784,7 +2797,7 @@
         ["item","hbm:circuit",1,14]
       ],
       "outputItem": [
-        ["single",["hbm:chopper",8]]
+        ["single",["hbm:chopper"]]
       ],
       "duration": 1200,
       "power": 100
@@ -3474,7 +3487,7 @@
     {
       "name": "ass.turretchekhov",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,1],
         ["dict","ingotSteel",16],
         ["item","hbm:motor",3],
         ["item","hbm:circuit",1,9],
@@ -3492,7 +3505,7 @@
     {
       "name": "ass.turretfriendly",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,1],
         ["dict","ingotSteel",16],
         ["item","hbm:motor",3],
         ["item","hbm:circuit",1,8],
@@ -3510,7 +3523,7 @@
     {
       "name": "ass.turretjeremy",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,1],
         ["dict","ingotSteel",16],
         ["item","hbm:motor",2],
         ["item","hbm:circuit",1,9],
@@ -3529,7 +3542,7 @@
     {
       "name": "ass.turrettauon",
       "inputItem": [
-        ["item","hbm:machine_lithium_battery"],
+        ["item","hbm:battery_pack",1,8],
         ["dict","ingotSteel",16],
         ["dict","ingotAnyPlastic",4],
         ["item","hbm:motor",2],
@@ -3537,7 +3550,6 @@
         ["item","hbm:motor_desh"],
         ["dict","ingotCopper",32],
         ["dict","gunMechanismSaturnite",3],
-        ["item","hbm:battery_lithium"],
         ["item","hbm:crt_display"]
       ],
       "outputItem": [
@@ -3549,7 +3561,7 @@
     {
       "name": "ass.turretrichard",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,1],
         ["dict","ingotSteel",16],
         ["item","hbm:motor",2],
         ["item","hbm:circuit",1,9],
@@ -3568,7 +3580,7 @@
     {
       "name": "ass.turrethoward",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,1],
         ["dict","ingotSteel",24],
         ["item","hbm:motor",2],
         ["item","hbm:motor_desh",2],
@@ -3587,7 +3599,7 @@
     {
       "name": "ass.maxwell",
       "inputItem": [
-        ["item","hbm:machine_lithium_battery"],
+        ["item","hbm:battery_pack",1,8],
         ["dict","ingotSteel",24],
         ["item","hbm:motor",2],
         ["item","hbm:circuit",2,9],
@@ -3606,7 +3618,7 @@
     {
       "name": "ass.fritz",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,1],
         ["dict","ingotSteel",16],
         ["item","hbm:motor",3],
         ["item","hbm:circuit",1,9],
@@ -3623,7 +3635,7 @@
     {
       "name": "ass.arty",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,2],
         ["dict","ingotSteel",64],
         ["dict","ingotSteel",64],
         ["item","hbm:motor_desh",5],
@@ -3642,7 +3654,7 @@
     {
       "name": "ass.himars",
       "inputItem": [
-        ["item","hbm:machine_battery"],
+        ["item","hbm:battery_pack",1,2],
         ["dict","ingotSteel",64],
         ["dict","ingotSteel",64],
         ["dict","ingotAnyPlastic",64],
@@ -4847,7 +4859,7 @@
         ["item","hbm:fluid_barrel_full",1,22],
         ["item","hbm:photo_panel",24],
         ["item","hbm:circuit",12,8],
-        ["item","hbm:machine_lithium_battery"]
+        ["item","hbm:battery_pack",1,2]
       ],
       "outputItem": [
         ["single",["hbm:sat_base"]]
@@ -4942,7 +4954,7 @@
         ["item","hbm:ingot_uranium_fuel",6],
         ["item","hbm:circuit",24,8],
         ["item","hbm:magnetron",3],
-        ["item","hbm:machine_lithium_battery"]
+        ["item","hbm:battery_pack",1,2]
       ],
       "outputItem": [
         ["single",["hbm:sat_foeq"]]
@@ -4961,7 +4973,7 @@
         ["item","hbm:thruster_small"],
         ["item","hbm:photo_panel",12],
         ["item","hbm:centrifuge_element",4],
-        ["item","hbm:machine_lithium_battery"]
+        ["item","hbm:battery_pack",1,2]
       ],
       "outputItem": [
         ["single",["hbm:sat_miner"]]
@@ -4980,7 +4992,7 @@
         ["item","hbm:fluid_barrel_full",1,22],
         ["item","hbm:thruster_small"],
         ["item","hbm:photo_panel",12],
-        ["item","hbm:machine_lithium_battery"]
+        ["item","hbm:battery_pack",1,2]
       ],
       "outputItem": [
         ["single",["hbm:sat_lunar_miner"]]

@@ -154,6 +154,10 @@
       "output": ["minecraft:sugar",3]
     },
     {
+      "input": ["thaumcraft:plank_silverwood"],
+      "output": ["hbm:powder_sawdust"]
+    },
+    {
       "input": ["hbm:deco_pipe_green"],
       "output": ["hbm:powder_steel"]
     },
@@ -256,6 +260,10 @@
     {
       "input": ["hbm:brick_concrete_mossy"],
       "output": ["minecraft:gravel"]
+    },
+    {
+      "input": ["thaumcraft:log_silverwood"],
+      "output": ["hbm:powder_sawdust",4]
     },
     {
       "input": ["hbm:bobblehead",1,11],
@@ -502,6 +510,10 @@
       "output": ["hbm:powder_steel_tiny",9]
     },
     {
+      "input": ["thaumcraft:log_greatwood"],
+      "output": ["hbm:powder_sawdust",4]
+    },
+    {
       "input": ["hbm:dungeon_chain"],
       "output": ["hbm:powder_steel_tiny"]
     },
@@ -606,6 +618,10 @@
       "output": ["hbm:powder_steel"]
     },
     {
+      "input": ["thaumcraft:sapling_greatwood"],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["minecraft:quartz_stairs"],
       "output": ["hbm:powder_quartz",3]
     },
@@ -628,6 +644,10 @@
     {
       "input": ["minecraft:flower_pot"],
       "output": ["minecraft:clay_ball",3]
+    },
+    {
+      "input": ["thaumcraft:plank_greatwood"],
+      "output": ["hbm:powder_sawdust"]
     },
     {
       "input": ["hbm:crystal_coal"],
@@ -744,6 +764,10 @@
     {
       "input": ["minecraft:stained_hardened_clay",1,15],
       "output": ["minecraft:clay_ball",4]
+    },
+    {
+      "input": ["thaumcraft:sapling_silverwood"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:bobblehead",1,21],
