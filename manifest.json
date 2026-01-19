@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Joe Parasites",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "author": "Dylanlenub",
   "files": [
     {
@@ -42,7 +42,7 @@
     {
       "projectID": 871198,
       "fileID": 6609247,
-      "required": false,
+      "required": true,
       "isLocked": false
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "projectID": 1083780,
-      "fileID": 7124788,
+      "fileID": 7416553,
       "required": true,
       "isLocked": false
     },
@@ -77,7 +77,7 @@
     },
     {
       "projectID": 1312314,
-      "fileID": 7415696,
+      "fileID": 7466325,
       "required": true,
       "isLocked": false
     },
@@ -107,7 +107,7 @@
     },
     {
       "projectID": 1119777,
-      "fileID": 7382024,
+      "fileID": 7425791,
       "required": true,
       "isLocked": false
     },
@@ -185,7 +185,7 @@
     },
     {
       "projectID": 225738,
-      "fileID": 6391031,
+      "fileID": 7454196,
       "required": true,
       "isLocked": false
     },
@@ -197,7 +197,7 @@
     },
     {
       "projectID": 873867,
-      "fileID": 7394157,
+      "fileID": 7455761,
       "required": true,
       "isLocked": false
     },
@@ -232,14 +232,14 @@
       "isLocked": false
     },
     {
-      "projectID": 1308068,
-      "fileID": 6776118,
+      "projectID": 223628,
+      "fileID": 2629023,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 223628,
-      "fileID": 2629023,
+      "projectID": 1308068,
+      "fileID": 6776118,
       "required": true,
       "isLocked": false
     },
@@ -250,14 +250,14 @@
       "isLocked": false
     },
     {
-      "projectID": 227083,
-      "fileID": 2518667,
+      "projectID": 1030082,
+      "fileID": 6026100,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 1030082,
-      "fileID": 6026100,
+      "projectID": 227083,
+      "fileID": 2518667,
       "required": true,
       "isLocked": false
     },
@@ -269,7 +269,7 @@
     },
     {
       "projectID": 964194,
-      "fileID": 7144256,
+      "fileID": 7423743,
       "required": true,
       "isLocked": false
     },
