@@ -1806,6 +1806,23 @@
       "power": 100
     },
     {
+      "name": "ass.gasturbine",
+      "inputItem": [
+        ["dict","shellSteel",10],
+        ["dict","wireDenseGold",12],
+        ["dict","ntmpipeDuraSteel",4],
+        ["dict","ntmpipeSteel",4],
+        ["item","hbm:turbine_tungsten"],
+        ["item","hbm:ingot_rubber",12],
+        ["item","hbm:circuit",3,8]
+      ],
+      "outputItem": [
+        ["single",["hbm:machine_turbine_gas"]]
+      ],
+      "duration": 400,
+      "power": 100
+    },
+    {
       "name": "ass.hephaestus",
       "inputItem": [
         ["dict","ntmpipeSteel",12],
