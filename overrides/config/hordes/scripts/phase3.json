@@ -1,0 +1,15 @@
+[
+    {
+        "function": "hordes:set_spawntable",
+        "value": "hordes:phase3",
+        "conditions": [
+            {
+                "name": "srpmixins:phase",
+                "value": {
+                    "operation": "==",
+                    "value": 3
+                }
+            }
+        ]
+    }
+]
