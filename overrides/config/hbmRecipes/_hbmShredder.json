@@ -43,7 +43,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,15],
-      "output": ["hbm:scrap_plastic",1,19]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:stone"],
@@ -91,7 +91,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,16],
-      "output": ["hbm:scrap_plastic",1,16]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:quartz_block"],
@@ -107,7 +107,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,1],
-      "output": ["hbm:scrap_plastic",1,9]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,12],
@@ -127,7 +127,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,17],
-      "output": ["hbm:scrap_plastic",1,20]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:wool",1,8],
@@ -147,7 +147,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,2],
-      "output": ["hbm:scrap_plastic",1,3]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:reeds"],
@@ -179,7 +179,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,18],
-      "output": ["hbm:scrap_plastic",1,1]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:quartz_block",1,2],
@@ -267,7 +267,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,11],
-      "output": ["hbm:scrap_plastic",1,14]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:deco_pipe_quad_marked"],
@@ -299,7 +299,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,12],
-      "output": ["hbm:scrap_plastic",1,13]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:meteor_polished"],
@@ -363,7 +363,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,13],
-      "output": ["hbm:scrap_plastic",1,17]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:ore_sellafield_diamond"],
@@ -407,7 +407,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,14],
-      "output": ["hbm:scrap_plastic",1,18]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:packed_ice"],
@@ -451,7 +451,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,24],
-      "output": ["hbm:scrap_plastic",1,10]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:crystal_lithium"],
@@ -487,7 +487,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,7],
-      "output": ["hbm:scrap_plastic",1,8]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:coil_tungsten"],
@@ -535,7 +535,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,8],
-      "output": ["hbm:scrap_plastic",1,15]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:debris_exchanger"],
@@ -595,7 +595,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,9],
-      "output": ["hbm:scrap_plastic",1,11]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:wool"],
@@ -671,7 +671,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,10],
-      "output": ["hbm:scrap_plastic",1,10]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:scrap"],
@@ -691,7 +691,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,3],
-      "output": ["hbm:scrap_plastic",1,4]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,14],
@@ -727,7 +727,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,19],
-      "output": ["hbm:scrap_plastic",1,12]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:skull",1,3],
@@ -771,7 +771,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,21],
-      "output": ["hbm:scrap_plastic",1,2]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:sand"],
@@ -827,7 +827,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,4],
-      "output": ["hbm:scrap_plastic",1,5]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:brick_light"],
@@ -879,7 +879,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,22],
-      "output": ["hbm:scrap_plastic",1,21]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:crystal_phosphorus"],
@@ -903,7 +903,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,5],
-      "output": ["hbm:scrap_plastic",1,6]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["hbm:crystal_lead"],
@@ -935,7 +935,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,23],
-      "output": ["hbm:scrap_plastic",1,22]
+      "output": ["hbm:scrap_plastic"]
     },
     {
       "input": ["minecraft:wool",1,5],
@@ -967,7 +967,7 @@
     },
     {
       "input": ["hbm:bobblehead",1,6],
-      "output": ["hbm:scrap_plastic",1,7]
+      "output": ["hbm:scrap_plastic"]
     }
   ]
 }

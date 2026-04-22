@@ -343,6 +343,20 @@
     },
     {
       "inputs": [
+        ["item","minecraft:stonebrick",16],
+        ["item","hbm:ingot_firebrick",16],
+        ["dict","ingotIron",8],
+        ["dict","ingotCopper",8]
+      ],
+      "outputs": [
+        ["hbm:machine_annihilator",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
         ["dict","ingotAluminum"]
       ],
       "outputs": [
@@ -1162,34 +1176,6 @@
     },
     {
       "inputs": [
-        ["dict","ingotEuphemium",4],
-        ["dict","dustAstatine",3],
-        ["dict","dustBismuth"],
-        ["dict","gemVolcanic"],
-        ["item","hbm:ingot_osmiridium"]
-      ],
-      "outputs": [
-        ["hbm:plate_euphemium",4,1.0]
-      ],
-      "tierLower": 6,
-      "tierUpper": -1,
-      "overlay": "CONSTRUCTION"
-    },
-    {
-      "inputs": [
-        ["dict","ingotDineutronium",4],
-        ["item","hbm:powder_spark_mix",2],
-        ["dict","ingotWorkersAlloy"]
-      ],
-      "outputs": [
-        ["hbm:plate_dineutronium",4,1.0]
-      ],
-      "tierLower": 7,
-      "tierUpper": -1,
-      "overlay": "CONSTRUCTION"
-    },
-    {
-      "inputs": [
         ["dict","plateTitanium",2],
         ["dict","ingotSteel"],
         ["dict","boltSteel",4]
@@ -1929,6 +1915,204 @@
     },
     {
       "inputs": [
+        ["item","hbm:stamp_stone_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_stone_plate",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_stone_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_stone_wire",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_stone_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_stone_circuit",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_iron_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_iron_plate",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_iron_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_iron_wire",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_iron_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_iron_circuit",1.0]
+      ],
+      "tierLower": 1,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_steel_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_steel_plate",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_steel_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_steel_wire",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_steel_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_steel_circuit",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_titanium_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_titanium_plate",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_titanium_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_titanium_wire",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_titanium_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_titanium_circuit",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_obsidian_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_obsidian_plate",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_obsidian_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_obsidian_wire",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_obsidian_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_obsidian_circuit",1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_desh_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_desh_plate",1.0]
+      ],
+      "tierLower": 3,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_desh_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_desh_wire",1.0]
+      ],
+      "tierLower": 3,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
+        ["item","hbm:stamp_desh_flat"]
+      ],
+      "outputs": [
+        ["hbm:stamp_desh_circuit",1.0]
+      ],
+      "tierLower": 3,
+      "tierUpper": -1,
+      "overlay": "SMITHING"
+    },
+    {
+      "inputs": [
         ["item","hbm:stamp_iron_flat"],
         ["dict","ingotGunMetal",2]
       ],
@@ -2078,6 +2262,246 @@
       ],
       "outputs": [
         ["hbm:mold",1,28,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,1,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,2,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,3,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,4,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,5,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,6,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,7,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,8,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,9,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,10,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,11,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,12,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,13,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,14,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,15,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,16,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,17,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,18,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,19,1.0]
+      ],
+      "tierLower": 2,
+      "tierUpper": -1,
+      "overlay": "CONSTRUCTION"
+    },
+    {
+      "inputs": [
+        ["dict","plateSteel"],
+        ["item","hbm:plate_polymer"]
+      ],
+      "outputs": [
+        ["hbm:siren_track",1,20,1.0]
       ],
       "tierLower": 2,
       "tierUpper": -1,
