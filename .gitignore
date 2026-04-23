@@ -1,13 +1,18 @@
-# Ignored
 minecraftinstance.json
 
 overrides/config/jei/worldSettings.cfg
 
 overrides/mods/*
-!overrides/mods/jarlist.txt
+!overrides/mods/modtracker.txt
 !overrides/mods/vintagium*.jar*
 !overrides/mods/oculus*.jar*
 !overrides/mods/chunkbert*.jar*
+
+overrides/resourcepacks/*
+!overrides/resourcepacks/resourcetracker.txt
+
+overrides/shaderpacks/*
+!overrides/shaderpacks/shadertracker.txt
 
 overrides/essential/*
 !overrides/essential/config.toml
