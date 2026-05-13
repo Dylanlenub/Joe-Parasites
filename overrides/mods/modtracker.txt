@@ -1,6 +1,7 @@
 !configanytime-3.0
 !mixinbooter-10.7
 !Red-Core-MC-1.8-1.12-0.7.1
+`FermiumBooter-1.4.1
 Alfheim-1.6
 Atlas-Lib-1.12.2-1.1.10
 Baubles-1.12-1.5.2
@@ -47,4 +48,3 @@ TimeShallNotPass-1.12.2-1.2.1
 UniversalTweaks-1.12.2-1.19.1
 vintagefix-0.7.0
 vintagium-mc1.12.2-0.1
-`FermiumBooter-1.4.1
