@@ -1,0 +1,35 @@
+#!/bin/sh
+set -e
+
+# Force commit review
+MAX_WAIT=15
+
+TIMESTAMP_FILE=".tools/timestamp.log"
+CURRENT_TIME=$(date +%s)
+
+TIME_DIFF=$(( MAX_WAIT + 1 ))
+if [ -f "$TIMESTAMP_FILE" ]; then
+  PREVIOUS_TIME=$(cat "$TIMESTAMP_FILE")
+  TIME_DIFF=$(( CURRENT_TIME - PREVIOUS_TIME ))
+fi
+
+echo "$CURRENT_TIME" > "$TIMESTAMP_FILE"
+
+if [ "$TIME_DIFF" -lt "$MAX_WAIT" ]; then
+  exit 0
+fi
+
+# General addon checking
+python3 .tools/addon_manager.py
+
+# Generate trackers
+python3 .tools/generate_trackers.py
+
+# Generate manifest
+python3 .tools/generate_manifest.py
+
+# Generate modlist
+python3 .tools/generate_modlist.py
+
+echo "===================== DO A FINAL REVIEW BEFORE COMMITTING ======================" >&2
+exit 1

@@ -1,5 +1,8 @@
 minecraftinstance.json
 
+.tools/__pycache__
+.tools/timestamp.log
+
 overrides/config/jei/worldSettings.cfg
 
 overrides/mods/*

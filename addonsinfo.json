@@ -1,0 +1,448 @@
+{
+  "!configanytime-3.0": {
+    "projectID": 870276,
+    "fileID": 5212709,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "!mixinbooter-10.7": {
+    "projectID": 419286,
+    "fileID": 7049694,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "!Red-Core-MC-1.8-1.12-0.7.1": {
+    "projectID": 873867,
+    "fileID": 7455761,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "`FermiumBooter-1.4.1": {
+    "projectID": 968474,
+    "fileID": 7279112,
+    "type": "mod",
+    "configFiles": [
+      "fermiumbooter.cfg"
+    ],
+    "associatedWith": []
+  },
+  "Alfheim-1.6": {
+    "projectID": 910715,
+    "fileID": 6687458,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "Atlas-Lib-1.12.2-1.1.10": {
+    "projectID": 463826,
+    "fileID": 7845224,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "Baubles-1.12-1.5.2": {
+    "projectID": 227083,
+    "fileID": 2518667,
+    "type": "mod",
+    "configFiles": [
+      "baubles.cfg"
+    ],
+    "associatedWith": []
+  },
+  "betterbiomeblend-1.2.0-1.12.2": {
+    "projectID": 1308068,
+    "fileID": 6776118,
+    "type": "mod",
+    "configFiles": [
+      "betterbiomeblend.cfg"
+    ],
+    "associatedWith": []
+  },
+  "CarbonConfig-1.12.2-2.0.1": {
+    "projectID": 898104,
+    "fileID": 7931719,
+    "type": "mod",
+    "configFiles": [
+      "carbonconfig.cfg"
+    ],
+    "associatedWith": []
+  },
+  "Chunk-Pregenerator-1.12.2-4.4.9.2": {
+    "projectID": 267193,
+    "fileID": 7884969,
+    "type": "mod",
+    "configFiles": [
+      "pregen/"
+    ],
+    "associatedWith": []
+  },
+  "chunkbert-0.1.1": {
+    "projectID": "chunkbert",
+    "fileID": "0.1.1",
+    "type": "mod",
+    "isLocal": true,
+    "configFiles": [
+      "chunkbert.cfg"
+    ],
+    "associatedWith": []
+  },
+  "CraftTweaker2-1.12-4.1.20.711": {
+    "projectID": 239197,
+    "fileID": 7406648,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "CTM-MC1.12.2-1.0.2.31": {
+    "projectID": 267602,
+    "fileID": 2915363,
+    "type": "mod",
+    "configFiles": [
+      "ctm.cfg"
+    ],
+    "associatedWith": []
+  },
+  "DelightfulCuisineForWoodheads_1.12.2-1.1.0": {
+    "projectID": 805622,
+    "fileID": 6997581,
+    "type": "mod",
+    "configFiles": [
+      "cookingforblockheads.cfg"
+    ],
+    "associatedWith": []
+  },
+  "Essential_1-3-10-8_forge_1-12-2": {
+    "projectID": 546670,
+    "fileID": 7806135,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "ExtraLib-2.1.4-1.12.2-Forge": {
+    "projectID": 1083780,
+    "fileID": 7416553,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "ExtraQuests-1.6.1-1.12.2-Forge": {
+    "projectID": 964194,
+    "fileID": 7423743,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "FastFurnace-1.12.2-1.3.1": {
+    "projectID": 299540,
+    "fileID": 2706111,
+    "type": "mod",
+    "configFiles": [
+      "fastfurnace.cfg"
+    ],
+    "associatedWith": []
+  },
+  "FastWorkbench-1.12.2-1.7.4": {
+    "projectID": 288885,
+    "fileID": 4030366,
+    "type": "mod",
+    "configFiles": [
+      "fastbench.cfg"
+    ],
+    "associatedWith": []
+  },
+  "fermiumasm-5.31": {
+    "projectID": 971247,
+    "fileID": 7741058,
+    "type": "mod",
+    "configFiles": [
+      "normalasm.cfg"
+    ],
+    "associatedWith": [
+      "config/normalasm/"
+    ]
+  },
+  "FTBBackups-1.1.0.1": {
+    "projectID": 314904,
+    "fileID": 2819669,
+    "type": "mod",
+    "configFiles": [
+      "ftbbackups.cfg"
+    ],
+    "associatedWith": []
+  },
+  "FTBLib-5.4.7.2": {
+    "projectID": 237167,
+    "fileID": 2985811,
+    "type": "mod",
+    "configFiles": [
+      "ftblib.cfg"
+    ],
+    "associatedWith": []
+  },
+  "FTBQuests-1202.9.0.15": {
+    "projectID": 289412,
+    "fileID": 3156637,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": [
+      "config/ftbquests/"
+    ]
+  },
+  "HadEnoughItems_1.12.2-4.30.3": {
+    "projectID": 557549,
+    "fileID": 7938914,
+    "type": "mod",
+    "configFiles": [
+      "jei/"
+    ],
+    "associatedWith": []
+  },
+  "Hwyla-1.8.26-B41_1.12.2": {
+    "projectID": 253449,
+    "fileID": 2568751,
+    "type": "mod",
+    "configFiles": [
+      "waila/waila.cfg"
+    ],
+    "associatedWith": [
+      "config/waila/"
+    ]
+  },
+  "ImmersiveCombat-12-13-25": {
+    "projectID": 541058,
+    "fileID": 7331026,
+    "type": "mod",
+    "configFiles": [
+      "bettercombat.cfg"
+    ],
+    "associatedWith": []
+  },
+  "ItemFilters-1.0.4.2": {
+    "projectID": 309674,
+    "fileID": 3003364,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "LootTweaker-0.5.1+MC1.12.2-DLS0": {
+    "projectID": 255257,
+    "fileID": 7684381,
+    "type": "mod",
+    "configFiles": [
+      "loottweaker.cfg"
+    ],
+    "associatedWith": []
+  },
+  "lycanitesmobs-1.12.2-2.0.8.10": {
+    "projectID": 224770,
+    "fileID": 5750564,
+    "type": "mod",
+    "configFiles": [
+      "lycanitesmobs/"
+    ],
+    "associatedWith": []
+  },
+  "MmmMmmMmmMmm-1.12-2.0.6": {
+    "projectID": 225738,
+    "fileID": 7454196,
+    "type": "mod",
+    "configFiles": [
+      "testdummy.cfg"
+    ],
+    "associatedWith": []
+  },
+  "ntm-ce-2.4.0.0": {
+    "projectID": 1312314,
+    "fileID": 7934587,
+    "type": "mod",
+    "configFiles": [
+      "hbm/",
+      "hbmConfig/",
+      "hbmRecipes/"
+    ],
+    "associatedWith": []
+  },
+  "oculus-mc1.12.2-1.4.7": {
+    "projectID": "oculus",
+    "fileID": "1.4.7",
+    "type": "mod",
+    "isLocal": true,
+    "configFiles": [
+      "oculus.properties"
+    ],
+    "associatedWith": []
+  },
+  "Placebo-1.12.2-1.6.1": {
+    "projectID": 283644,
+    "fileID": 4629597,
+    "type": "mod",
+    "configFiles": [
+      "placebo.cfg"
+    ],
+    "associatedWith": []
+  },
+  "rbp-1.12.2-3.0.0": {
+    "projectID": 375616,
+    "fileID": 6393371,
+    "type": "mod",
+    "configFiles": [
+      "rbp/"
+    ],
+    "associatedWith": []
+  },
+  "RealisticExplosionPhysics-1.12.2-1.0.0": {
+    "projectID": 453315,
+    "fileID": 3227877,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "realisticphysics-1.12.2-1.0.1": {
+    "projectID": 1030082,
+    "fileID": 6026100,
+    "type": "mod",
+    "configFiles": [
+      "realisticphysics/"
+    ],
+    "associatedWith": []
+  },
+  "ShieldBreak-1.2.3": {
+    "projectID": 522574,
+    "fileID": 7523020,
+    "type": "mod",
+    "configFiles": [
+      "shieldbreak.cfg"
+    ],
+    "associatedWith": []
+  },
+  "soundphysics-1.1.17": {
+    "projectID": 951159,
+    "fileID": 6858200,
+    "type": "mod",
+    "configFiles": [],
+    "associatedWith": []
+  },
+  "SpartanShields-1.12.2-1.5.5": {
+    "projectID": 252239,
+    "fileID": 3567495,
+    "type": "mod",
+    "configFiles": [
+      "spartanshields.cfg"
+    ],
+    "associatedWith": []
+  },
+  "SpartanWeaponry-1.12.2-1.6.1": {
+    "projectID": 278141,
+    "fileID": 6839689,
+    "type": "mod",
+    "configFiles": [
+      "spartanweaponry.cfg"
+    ],
+    "associatedWith": []
+  },
+  "SRParasites-1.12.2v1.9.21": {
+    "projectID": 348025,
+    "fileID": 5370258,
+    "type": "mod",
+    "configFiles": [
+      "srparasites/"
+    ],
+    "associatedWith": []
+  },
+  "SRPMixins-2.9.5": {
+    "projectID": 1119777,
+    "fileID": 7786331,
+    "type": "mod",
+    "configFiles": [
+      "srpmixins.cfg"
+    ],
+    "associatedWith": [
+      "config/srpmixins/"
+    ]
+  },
+  "teamsmod-1.12.2-Rfinal-fixed": {
+    "projectID": 334854,
+    "fileID": 3036040,
+    "type": "mod",
+    "configFiles": [
+      "teamsmod.cfg"
+    ],
+    "associatedWith": []
+  },
+  "Thaumcraft-1.12.2-6.1.BETA26": {
+    "projectID": 223628,
+    "fileID": 2629023,
+    "type": "mod",
+    "configFiles": [
+      "thaumcraft_graphics.cfg",
+      "thaumcraft_misc.cfg",
+      "thaumcraft_world.cfg"
+    ],
+    "associatedWith": []
+  },
+  "ThaumcraftFix-1.12.2-1.1.9": {
+    "projectID": 1069346,
+    "fileID": 7288369,
+    "type": "mod",
+    "configFiles": [
+      "thaumcraftfix.cfg"
+    ],
+    "associatedWith": []
+  },
+  "The-Hordes-1.12.2-1.5.3c": {
+    "projectID": 485779,
+    "fileID": 7265162,
+    "type": "mod",
+    "configFiles": [
+      "hordes.cfg",
+      "hordes-client.cfg"
+    ],
+    "associatedWith": [
+      "config/hordes/"
+    ]
+  },
+  "TimeShallNotPass-1.12.2-1.2.1": {
+    "projectID": 537843,
+    "fileID": 5458661,
+    "type": "mod",
+    "configFiles": [
+      "TimeShallNotPass/"
+    ],
+    "associatedWith": []
+  },
+  "UniversalTweaks-1.12.2-1.19.1": {
+    "projectID": 705000,
+    "fileID": 7849634,
+    "type": "mod",
+    "configFiles": [
+      "Universal Tweaks - Bugfixes.cfg",
+      "Universal Tweaks - General.cfg",
+      "Universal Tweaks - Mod Integration.cfg",
+      "Universal Tweaks - Tweaks.cfg"
+    ],
+    "associatedWith": []
+  },
+  "vintagefix-0.7.0": {
+    "projectID": 871198,
+    "fileID": 7958801,
+    "type": "mod",
+    "configFiles": [
+      "vintagefix.properties"
+    ],
+    "associatedWith": []
+  },
+  "vintagium-mc1.12.2-0.1": {
+    "projectID": "vintagium",
+    "fileID": "0.1",
+    "type": "mod",
+    "isLocal": true,
+    "configFiles": [
+      "vintagium-mixins.properties",
+      "vintagium-options.json"
+    ],
+    "associatedWith": []
+  }
+}
